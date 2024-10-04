@@ -217,7 +217,12 @@ img {
   fill: var(--first-color);
 }
 .home__blob-img {
-  width: 360px;
+  position: relative;
+  bottom: 100px;
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+  align-items: left;
 }
 
 /*BUTTONS*/
@@ -244,6 +249,7 @@ img {
 }
 .about__img {
   justify-self: center;
+ 
 }
 .about__img img {
   width: 200px;
@@ -397,6 +403,7 @@ img {
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     text-align: initial;
+   
   }
   .skills__container {
     grid-template-columns: 0.7fr;
@@ -460,6 +467,7 @@ img {
   }
   .about__img img {
     width: 300px;
+    
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
